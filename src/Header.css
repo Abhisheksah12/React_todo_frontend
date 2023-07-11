@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 3rem;
+    background-color: rgb(51,51, 51);
+    color: rgb(251,251, 251);
+    
+}
+.header>h2{
+    text-transform: uppercase;
+    color: rgb(251,251, 251);
+    font-weight: 400;
+}
+.header>article{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.link{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding:0.5rem calc(0.5rem*3) ;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    margin-right: 30px;
+    transition: all 0.3s;
+}
+.link:hover{
+    background-color: white;
+    color: rgb(51, 51, 51)
+}
+.btn_logout{
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 10rem;
+    padding: 0.5rem calc(0.5rem*2);
+    background-color:rgb(51, 51, 51);
+    border:  none rgb(51, 51, 51);
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.btn_logout:hover{
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+.btn_logout:disabled{
+    opacity: 0.2;
+    cursor: not-allowed;
+}

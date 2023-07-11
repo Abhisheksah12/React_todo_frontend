@@ -1,0 +1,50 @@
+.todo{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    padding: 2rem;
+
+}
+
+.check{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+}
+.check:checked{
+    background-color:red;
+}
+.todo_check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.btn_delete{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: rgb(51,51,51);
+    width: 14.75rem;
+    padding: calc(1rem*1) calc(1rem*2.5);
+    background-color: rgb(51, 51, 51);
+    border: 2px solid rgb(51, 51, 51);
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.btn_delete:hover{
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+.btn_delete:disabled{
+    opacity: 0.2;
+    cursor: not-allowed;
+} 
